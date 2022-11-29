@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 16px;
+  font-weight: normal;
+  background: #f1f1f1;
+}
+.info {
+  margin-bottom: 10px;
+  display: flex;
+}
+.info-text {
+  margin-left: 40px;
+}
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+  color: #800080;
+}
+.info-text h3 {
+  margin-bottom: 5px;
+}
+.card {
+  border: 0px solid #111;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.bg-antiquewhite {
+  background: #faebd7;
+}
+.bg-aquamarine {
+  background: #7fffd4;
+}
+.bg-darkseagreen {
+  background: #8fbc8f;
+}
+body td {
+  border: 0px solid #7fffd4;
+  border-radius: 20px;
+  background: #7fffd4;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.avatar {
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin: 15px 20px;
+}
+
+a {
+  color: #32cd32;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+a:active {
+  color: #7fff00;
+}
+.btn {
+  background: #111;
+  color: azure;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: auto;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+.list li {
+  margin: 8px;
+  color: #696969;
+  border-bottom: 1px solid black;
+}
+.table td {
+  margin: 8px;
+  padding: 3px 6px;
+  border-bottom: 1px solid black;
+}
+.table td:nth-child(2) {
+  color: #696969;
+}
+.table td:nth-child(3) {
+  color: #1e90ff;
+}
+.tyr {
+  opacity: 0.8;
+  color: #4b0082;
+}
+.form h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-group input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  background: transparent;
+  border-bottom: 1px solid black;
+  color: #111;
+  padding: 10px 0 15px;
+  outline: none;
+  font-family: inherit;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+  /* эта функция выранивает блочные элементы в линейние. */
+}
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  /* width: 50%; */
+}
+@media (max-width: 500px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin: bottom 10px;
+  }
+}
